@@ -28,5 +28,5 @@ int main() {
 	preCalc(200000,MOD);
 	cin>>n>>r;
 	cout<<"nCr = "<<(fact[n] * ((inverseFact[r]*inverseFact[n-r])%MOD))%MOD;
-	return 0;
+    return 0;
 }
