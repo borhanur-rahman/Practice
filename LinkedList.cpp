@@ -36,7 +36,7 @@ nodeptr createList(int n){
     }
     return start;
 }
-void traverse(nodeptr start){
+/*void traverse(nodeptr start){
     nodeptr curr,newPtr;
     cout<<"Given infos:\n";
     curr=start;
@@ -45,7 +45,7 @@ void traverse(nodeptr start){
       curr=curr->ptr;
     }
     cout<<"\n";
-}
+}*/
 int search(int value,nodeptr start){
     int pos=1;
     nodeptr curr=start;
