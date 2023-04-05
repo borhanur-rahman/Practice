@@ -36,6 +36,7 @@ nodeptr createList(int n){
     }
     return start;
 }
+//comment
 void traverse(nodeptr start){
     nodeptr curr,newPtr;
     cout<<"Given infos:\n";
